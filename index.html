@@ -3,27 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ujjal Mistri — Computer Science student, programmer and creative designer.">
-  <title>Ujjal Mistri | Portfolio</title>
+  <meta name="description" content="Explore Ujjal Mistri's portfolio: a Computer Science student, programmer and creative designer building web experiences, Java applications and digital designs.">
+  <meta name="author" content="Ujjal Mistri">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#06070b">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ujjal Mistri | Computer Science Portfolio">
+  <meta property="og:description" content="Computer Science student, programmer and creative designer building useful digital experiences and projects.">
+  <meta property="og:image" content="images/profile/43045.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ujjal Mistri | Computer Science Portfolio">
+  <meta name="twitter:description" content="Computer Science student, programmer and creative designer building useful digital experiences and projects.">
+  <meta name="twitter:image" content="images/profile/43045.jpg">
+  <title>Ujjal Mistri | Computer Science Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ujjal Mistri",
+      "jobTitle": "Computer Science Student, Programmer and Creative Designer",
+      "description": "Computer Science student, programmer and creative designer building web experiences, Java applications and digital designs.",
+      "image": "images/profile/43045.jpg",
+      "sameAs": [
+        "https://github.com/ujjalmistri",
+        "https://www.linkedin.com/in/ujjal-mistri-610aa6347/",
+        "https://www.facebook.com/share/19Nar76HCw/"
+      ]
+    }
+  </script>
 </head>
 <body>
+  <!-- Decorative background layers remain behind the interactive content. -->
   <div class="noise"></div>
   <div class="grid-bg"></div>
 
+  <!-- Sticky site header and primary section navigation. -->
   <header class="header">
     <a href="#home" class="logo"><span>U</span>J<span>.</span></a>
     <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     <nav class="nav">
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <a href="#home" class="active"><i data-lucide="house" aria-hidden="true"></i>Home</a>
+      <a href="#about"><i data-lucide="user-round" aria-hidden="true"></i>About</a>
+      <a href="#skills"><i data-lucide="sparkles" aria-hidden="true"></i>Skills</a>
+      <a href="#projects"><i data-lucide="briefcase-business" aria-hidden="true"></i>Projects</a>
+      <a href="#contact"><i data-lucide="mail" aria-hidden="true"></i>Contact</a>
     </nav>
   </header>
 
+  <button class="back-to-top" aria-label="Back to home" title="Back to home">↑</button>
+
   <main>
+    <!-- Introductory hero with the primary profile and calls to action. -->
     <section id="home" class="hero section">
       <div class="hero-copy">
         <p class="eyebrow">HELLO, WORLD_</p>
@@ -33,7 +65,7 @@
           I build clean digital experiences, explore programming, and turn ideas into useful projects.
         </p>
         <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">View Projects <span>↗</span></a>
+          <a href="#projects" class="btn btn-primary">View Projects <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
           <a href="#contact" class="btn btn-ghost">Contact Me</a>
         </div>
       </div>
@@ -43,7 +75,7 @@
         <div class="orbit orbit-two"></div>
         <div class="profile-card">
           <div class="scan"></div>
-          <div class="avatar">UM</div>
+          <div class="avatar"><img src="images/profile/profile.png" alt="Ujjal Mistri"></div>
           <div class="card-code">CS // 01</div>
           <div class="status"><span></span> AVAILABLE TO BUILD</div>
         </div>
@@ -53,6 +85,7 @@
       </div>
     </section>
 
+    <!-- Personal introduction and terminal-style interests summary. -->
     <section id="about" class="section about">
       <div class="section-heading">
         <span>01</span>
@@ -78,25 +111,31 @@
 
 <span class="muted">$</span> status
 <span class="green">learning_and_building...</span></code></pre>
+          <a class="terminal-download" href="ujjal-mistri-cv.pdf" download>
+            <i data-lucide="download" aria-hidden="true"></i>
+            Download CV
+          </a>
         </div>
       </div>
     </section>
 
+    <!-- Technical and creative capabilities. -->
     <section id="skills" class="section">
       <div class="section-heading">
         <span>02</span>
         <div><p class="eyebrow">CAPABILITIES</p><h2>My <em>Skills</em></h2></div>
       </div>
       <div class="skills-grid">
-        <article class="skill-card"><div class="skill-icon">{ }</div><h3>C / C++</h3><p>Fundamentals, DSA, problem solving and console applications.</p><div class="meter"><span style="width:82%"></span></div></article>
-        <article class="skill-card"><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Interactive web interfaces using modern vanilla JavaScript.</p><div class="meter"><span style="width:70%"></span></div></article>
-        <article class="skill-card"><div class="skill-icon">J</div><h3>Java</h3><p>OOP, collections, file handling and console-based applications.</p><div class="meter"><span style="width:68%"></span></div></article>
-        <article class="skill-card"><div class="skill-icon">&lt;/&gt;</div><h3>HTML / CSS</h3><p>Responsive layouts, modern UI systems and visual design.</p><div class="meter"><span style="width:85%"></span></div></article>
-        <article class="skill-card"><div class="skill-icon">DB</div><h3>SQL</h3><p>Learning relational databases, queries and data management.</p><div class="meter"><span style="width:60%"></span></div></article>
-        <article class="skill-card"><div class="skill-icon">PS</div><h3>Creative Design</h3><p>Graphic design, image editing, branding and visual concepts.</p><div class="meter"><span style="width:78%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon"><i data-lucide="braces" aria-hidden="true"></i></div><h3>C / C++</h3><p>Fundamentals, DSA, problem solving and console applications.</p><div class="meter"><span style="width:82%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon"><i data-lucide="square-code" aria-hidden="true"></i></div><h3>JavaScript</h3><p>Interactive web interfaces using modern vanilla JavaScript.</p><div class="meter"><span style="width:70%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon"><i data-lucide="coffee" aria-hidden="true"></i></div><h3>Java</h3><p>OOP, collections, file handling and console-based applications.</p><div class="meter"><span style="width:68%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon"><i data-lucide="code-2" aria-hidden="true"></i></div><h3>HTML / CSS</h3><p>Responsive layouts, modern UI systems and visual design.</p><div class="meter"><span style="width:85%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon"><i data-lucide="database" aria-hidden="true"></i></div><h3>SQL</h3><p>Learning relational databases, queries and data management.</p><div class="meter"><span style="width:60%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon"><i data-lucide="palette" aria-hidden="true"></i></div><h3>Creative Design</h3><p>Graphic design, image editing, branding and visual concepts.</p><div class="meter"><span style="width:78%"></span></div></article>
       </div>
     </section>
 
+    <!-- Selected work presented as project cards. -->
     <section id="projects" class="section projects">
       <div class="section-heading">
         <span>03</span>
@@ -104,21 +143,21 @@
       </div>
       <div class="projects-grid">
         <article class="project-card featured">
-          <div class="project-number">01</div><div class="project-icon">⌘</div>
+          <div class="project-number">01</div><div class="project-icon"><i data-lucide="command" aria-hidden="true"></i></div>
           <p class="project-type">WEB DEVELOPMENT</p><h3>Futuristic Portfolio</h3>
           <p>A responsive personal portfolio with a futuristic visual system, animations and interactive navigation.</p>
           <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
           <a href="#" class="project-link">View project ↗</a>
         </article>
         <article class="project-card">
-          <div class="project-number">02</div><div class="project-icon">01</div>
+          <div class="project-number">02</div><div class="project-icon"><i data-lucide="landmark" aria-hidden="true"></i></div>
           <p class="project-type">JAVA / OOP</p><h3>Console Banking App</h3>
           <p>A CUI banking application using classes, objects, account mapping and file handling concepts.</p>
           <div class="tags"><span>Java</span><span>OOP</span><span>CUI</span></div>
           <a href="#" class="project-link">View project ↗</a>
         </article>
         <article class="project-card">
-          <div class="project-number">03</div><div class="project-icon">#</div>
+          <div class="project-number">03</div><div class="project-icon"><i data-lucide="paintbrush" aria-hidden="true"></i></div>
           <p class="project-type">CREATIVE DESIGN</p><h3>Ujjal Creative Hub</h3>
           <p>A creative concept combining graphic design, branding, Photoshop, Illustrator and digital content.</p>
           <div class="tags"><span>Design</span><span>Branding</span><span>UI</span></div>
@@ -127,17 +166,19 @@
       </div>
     </section>
 
+    <!-- Contact call to action and external social profiles. -->
     <section id="contact" class="section contact">
       <div class="contact-box">
         <p class="eyebrow">04 // GET IN TOUCH</p>
         <h2>Let's build something<br><em>interesting.</em></h2>
         <p>Have an idea, project, collaboration or just want to say hello?</p>
-        <a class="btn btn-primary" href="mailto:ujjalmistri2005@gmail.com">Start a Conversation ↗</a>
+        <a class="btn btn-primary" href="mailto:ujjalmistri2005@gmail.com">Start a Conversation <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
         <div class="socials">
-          <a href="https://github.com/ujjalmistri" aria-label="GitHub">GitHub</a>
-          <a href="https://www.linkedin.com/in/ujjal-mistri-610aa6347/" aria-label="LinkedIn">LinkedIn</a>
-          <a href="https://www.facebook.com/share/19Nar76HCw/" aria-label="Facebook">Facebook</a>
+          <a href="https://github.com/ujjalmistri" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
+          <a href="https://www.linkedin.com/in/ujjal-mistri-610aa6347/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>LinkedIn</a>
+          <a href="https://www.facebook.com/share/19Nar76HCw/" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i>Facebook</a>
         </div>
+        <div class="location"><i data-lucide="map-pin" aria-hidden="true"></i><span>India, Kolkata</span></div>
       </div>
     </section>
   </main>
